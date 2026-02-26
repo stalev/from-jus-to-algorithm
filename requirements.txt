@@ -1,0 +1,8 @@
+snakemake==9.16.2
+pandas==3.0.0
+gensim==4.4.0
+PyYAML==6.0.3
+stanza==1.11.0
+matplotlib==3.10.8
+seaborn==0.13.2
+adjustText==1.3.0

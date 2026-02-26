@@ -1,0 +1,102 @@
+[
+  // TIER 1: HIGHLY RELIABLE (12 triplets) - core anchor set for SO-SIM
+  // Temporal units, ordinal numbers, and fundamental abstract concepts
+  // Frequency ratios < 3x, minimal semantic drift expected
+  { "la": "annus", "fr": "année", "en": "year" },       // temporal unit
+  { "la": "dies", "fr": "jour", "en": "day" },          // temporal unit
+  { "la": "numerus", "fr": "nombre", "en": "number" },  // mathematical concept
+  { "la": "primus", "fr": "premier", "en": "first" },   // ordinal numeral
+  { "la": "secundus", "fr": "second", "en": "second" }, // ordinal numeral
+  { "la": "nomen", "fr": "nom", "en": "name" },         // basic identifier
+  { "la": "forma", "fr": "forme", "en": "form" },       // structural concept
+  { "la": "locus", "fr": "lieu", "en": "place" },       // physical location
+  { "la": "gradus", "fr": "degré", "en": "degree" },    // measurement unit
+  { "la": "vis", "fr": "force", "en": "force" },        // physical concept
+  { "la": "naturalis", "fr": "naturel", "en": "natural" }, // fundamental adjective
+  { "la": "necessarius", "fr": "nécessaire", "en": "necessary" }, // logical concept
+
+  // TIER 2: RELIABLE (15 triplets) - extended anchor basis
+  // Basic verbs and adjectives with stable core meanings
+  // Should be validated via second-order embeddings before use
+  { "la": "maneo", "fr": "demeurer", "en": "remain" },     // state verb
+  { "la": "exsisto", "fr": "exister", "en": "exist" },     // existential verb
+  { "la": "contineo", "fr": "contenir", "en": "contain" }, // spatial verb
+  { "la": "permitto", "fr": "permettre", "en": "permit" }, // permission verb
+  { "la": "voco", "fr": "appeler", "en": "call" },         // communication verb
+  { "la": "dono", "fr": "donner", "en": "give" },          // transfer verb
+  { "la": "invenio", "fr": "trouver", "en": "find" },      // discovery verb
+  { "la": "cognosco", "fr": "connaître", "en": "know" },   // cognitive verb
+  { "la": "intellego", "fr": "comprendre", "en": "understand" }, // cognitive verb
+  { "la": "communis", "fr": "commun", "en": "common" },    // collective adjective
+  { "la": "certus", "fr": "certain", "en": "certain" },    // epistemic adjective
+  { "la": "posterus", "fr": "postérieur", "en": "subsequent" }, // temporal adjective
+  { "la": "impleo", "fr": "remplir", "en": "fulfil" },     // completion verb
+  { "la": "bonum", "fr": "bien", "en": "good" },           // value adjective
+  { "la": "opus", "fr": "ouvrage", "en": "work" },         // product noun
+
+  // TIER 3: PROBABLY SAFE (18 triplets) - requires validation
+  // Terms with potential semantic broadening but generally stable core
+  // Validate via bootstrap alignment before adding to anchor set
+  { "la": "pars", "fr": "partie", "en": "part" },          // WARNING: polysemy in FR (party/part)
+  { "la": "fio", "fr": "devenir", "en": "become" },        // change of state
+  { "la": "convenio", "fr": "convenir", "en": "agree" },   // consensus verb
+  { "la": "ratio", "fr": "raison", "en": "reason" },       // WARNING: ratio vs reason
+  { "la": "pretium", "fr": "prix", "en": "price" },        // economic concept
+  { "la": "usus", "fr": "usage", "en": "use" },            // WARNING: legal usus evolved
+  { "la": "obligo", "fr": "obliger", "en": "oblige" },     // legal binding verb
+  { "la": "praesum", "fr": "présumer", "en": "presume" },  // epistemic verb
+  { "la": "peto", "fr": "demander", "en": "request" },     // request verb
+  { "la": "consequor", "fr": "obtenir", "en": "obtain" },  // acquisition verb
+  { "la": "obtineo", "fr": "obtenir", "en": "obtain" },    // acquisition verb (synonym)
+  { "la": "exceptio", "fr": "exception", "en": "exception" }, // procedural term
+  { "la": "titulus", "fr": "titre", "en": "title" },       // designation noun
+  { "la": "adquiro", "fr": "acquérir", "en": "acquire" },  // acquisition verb
+  { "la": "damnum", "fr": "dommage", "en": "damage" },     // harm noun
+  { "la": "recipio", "fr": "recevoir", "en": "receive" },  // reception verb
+  { "la": "offero", "fr": "offrir", "en": "offer" },       // proposal verb
+  { "la": "probatio", "fr": "preuve", "en": "proof" },     // evidentiary term
+
+  // TIER 4: MODERATE RISK (15 triplets) - use with caution
+  // Terms with notable legal/institutional context but recognizable core
+  // NOT recommended as anchors; use only for semantic shift analysis
+  { "la": "accipio", "fr": "recevoir", "en": "receive" },  // acceptance context varies
+  { "la": "condicio", "fr": "condition", "en": "condition" }, // legal conditions evolved
+  { "la": "gero", "fr": "exercer", "en": "conduct" },      // conduct/exercise divergence
+  { "la": "praecipio", "fr": "ordonner", "en": "order" },  // command verb
+  { "la": "ordo", "fr": "ordre", "en": "order" },          // WARNING: order/arrangement polysemy
+  { "la": "postulo", "fr": "exiger", "en": "demand" },     // demand intensity varies
+  { "la": "exigo", "fr": "exiger", "en": "require" },      // requirement strength varies
+  { "la": "contraho", "fr": "contracter", "en": "contract" }, // WARNING: legal institution
+  { "la": "venditio", "fr": "vente", "en": "sale" },       // commercial transaction
+  { "la": "censeo", "fr": "estimer", "en": "consider" },   // judgment verb
+  { "la": "casus", "fr": "cas", "en": "case" },            // WARNING: freq spike in FR/EN
+  { "la": "beneficium", "fr": "bénéfice", "en": "benefit" }, // favor to financial gain
+  { "la": "mando", "fr": "ordonner", "en": "mandate" },    // delegation concept
+  { "la": "profero", "fr": "produire", "en": "produce" },  // production verb
+  { "la": "consensus", "fr": "consentement", "en": "consent" }, // legal concept evolved
+
+  // TIER 5: HIGH RISK (20 triplets) - DO NOT use as anchors
+  // Institutional, economic, and procedural terms with major semantic shifts
+  // Suitable only as targets for diachronic semantic change detection
+  { "la": "persona", "fr": "personne", "en": "person" },   // CRITICAL: legal personhood evolved
+  { "la": "publicus", "fr": "public", "en": "public" },    // CRITICAL: res publica → state → public
+  { "la": "constituo", "fr": "constituer", "en": "constitute" }, // institutional founding
+  { "la": "officium", "fr": "fonction", "en": "duty" },    // CRITICAL: duty vs function divergence
+  { "la": "pecunia", "fr": "argent", "en": "money" },      // CRITICAL: cattle → metal → fiat currency
+  { "la": "poena", "fr": "peine", "en": "penalty" },       // punishment concept evolved
+  { "la": "potestas", "fr": "pouvoir", "en": "authority" }, // CRITICAL: freq_ratio 5.7x, patria potestas → state power
+  { "la": "procurator", "fr": "mandataire", "en": "agent" }, // CRITICAL: representative concept evolved
+  { "la": "administratio", "fr": "administration", "en": "administration" }, // bureaucratic concept
+  { "la": "civilis", "fr": "civil", "en": "civil" },       // CRITICAL: civic vs civil law
+  { "la": "defero", "fr": "déférer", "en": "refer" },      // CRITICAL: freq_ratio 24x in EN
+  { "la": "praebeo", "fr": "fournir", "en": "provide" },   // CRITICAL: freq_ratio 11x in EN
+  { "la": "usura", "fr": "intérêt", "en": "interest" },    // CRITICAL: usury → interest rates
+  { "la": "contractus", "fr": "contrat", "en": "contract" }, // CRITICAL: legal institution transformed
+  { "la": "obligatio", "fr": "obligation", "en": "obligation" }, // CRITICAL: legal bonds evolved
+  { "la": "solutio", "fr": "paiement", "en": "payment" },  // CRITICAL: freq_ratio 16.5x in EN
+  { "la": "onus", "fr": "charge", "en": "burden" },        // burden of proof context
+  { "la": "curia", "fr": "cour", "en": "court" },          // CRITICAL: senate house → royal court → judiciary
+  { "la": "refero", "fr": "rapporter", "en": "refer" },    // CRITICAL: freq_ratio 29x in EN
+  { "la": "dolus", "fr": "dol", "en": "fraud" },           // intent vs act distinction
+  { "la": "fraus", "fr": "fraude", "en": "fraud" }         // fraud concept specialized
+]

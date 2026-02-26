@@ -1,0 +1,15 @@
+DATA LICENSING AND REUSE NOTICE
+
+This repository includes:
+(A) Underlying legal texts obtained from third-party sources and stored under `data/raw/` (see `data/SOURCES.md`)
+(B) Author-created research artifacts stored under `data/reference/` and any additional curation/structure/metadata applied to the corpus
+
+1) Underlying texts (A)
+The underlying texts remain subject to their original legal status and/or reuse conditions as stated by the source websites.
+You must comply with the original notices and attribution requirements applicable to each source.
+
+2) Author-created contributions (B)
+To the extent copyright and related rights apply to the curation/structure/metadata/anchor lists created by the authors,
+these contributions are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+This notice does NOT grant any rights to third-party content beyond what is allowed by the original sources.

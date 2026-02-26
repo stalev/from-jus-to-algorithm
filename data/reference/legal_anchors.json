@@ -1,0 +1,13 @@
+[
+  { "la": "obligatio", "fr": "obligation", "en": "obligation" },
+  { "la": "contractus", "fr": "contrat", "en": "contract" },
+  { "la": "consensus", "fr": "consentement", "en": "consent" },
+  { "la": "condicio", "fr": "condition", "en": "condition" },
+  { "la": "solutio", "fr": "exécution", "en": "performance" },
+  { "la": "conventio", "fr": "convention", "en": "agreement" },
+  { "la": "actio", "fr": "action", "en": "action" },
+  { "la": "damnum", "fr": "dommage", "en": "damage" },
+  { "la": "restitutio", "fr": "restitution", "en": "remedy" },
+  { "la": "pretium", "fr": "prix", "en": "price" },
+  { "la": "exceptio", "fr": "exception", "en": "exception" }
+]

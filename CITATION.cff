@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code, methodology, or dataset in your research, please cite it as below."
+authors:
+  - family-names: "Levchenko"
+    given-names: "Stanislav"
+    orcid: "https://orcid.org/0009-0004-4591-4938"
+  - family-names: "Kovalov"
+    given-names: "Oleh"
+    orcid: "https://orcid.org/0009-0008-9924-3382"
+  - family-names: "Eteris"
+    given-names: "Eugene"
+    orcid: "https://orcid.org/0009-0007-6142-7269"
+title: "From Jus to Algorithm: A Cross-Epoch Analysis of Semantic Density in Legal Corpora"
+version: 1.0.0
+date-released: 2024-02-26
+url: "https://github.com/stalev/from-jus-to-algorithm"
+abstract: "This project quantifies the semantic evolution of legal terminology across 1,500 years—from Roman law to modern EU regulations—using aligned word embeddings. Our geometric analysis reveals a systematic reduction in semantic density, providing empirical evidence for the 'dilution' and conceptual broadening of foundational legal terms in the digital age."
+keywords:
+  - "word2vec"
+  - "fasttext"
+  - "procrustes alignment"
+  - "legal linguistics"
+  - "semantic density"
+  - "legal corpora"
+  - "computational law"

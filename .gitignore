@@ -1,0 +1,27 @@
+# --- Python environment ---
+.venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- Snakemake internal metadata ---
+.snakemake/
+
+# --- Project specific: Large data and models ---
+results/models/
+results/vocab/
+data/normalized/
+data/processed/
+
+# --- Logs and temporary files ---
+logs/
+*.log
+
+# --- System junk ---
+.DS_Store
+Thumbs.db
+
+# --- Security ---
+.env
+config/local_config.yaml

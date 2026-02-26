@@ -1,0 +1,36 @@
+# General paths
+dirs:
+  raw: "data/raw"
+  normalized: "data/normalized"
+  processed: "data/processed"
+  scripts: "scripts"
+  logs: "logs"
+  metrics: "results/metrics"
+  signatures: "results/figures/signatures"
+
+# Corpora mapping: filename -> language
+corpora:
+  eu: "en"
+  napoleon: "fr"
+  roman: "la"
+
+# (Future) Word2Vec parameters
+word2vec:
+  vector_size: 300
+  window: 5
+  min_count: 5
+
+# Corpus settings
+samples:
+  - roman
+  - napoleon
+  - eu
+
+# Model architectures
+model_types:
+  - w2v
+  - fasttext
+
+# Alignment settings
+pivot_sample: roman
+anchors_file: data/reference/alignment_anchors.json
