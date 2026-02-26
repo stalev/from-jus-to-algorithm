@@ -104,4 +104,4 @@ snakemake --cores 4 --forceall
 
 If you use this methodology, code, or the provided embeddings in your research, please cite this work as follows:
 
-> Refer to the [`CITATION.cff`](./CITATION.cff) file for the metadata and preferred citation format.Kovalyov, O., & Eteris, E. (2026). From Jus to Algorithm: A Cross-Epoch Analysis of Semantic Density in Legal Corpora. GitHub Repository: https://github.com/stalev/from-jus-to-algorithm
+> Refer to the [`CITATION.cff`](./CITATION.cff) file for the metadata and preferred citation format: Levchenko, S., Kovalyov, O., & Eteris, E. (2026). From Jus to Algorithm: A Cross-Epoch Analysis of Semantic Density in Legal Corpora. GitHub Repository: https://github.com/stalev/from-jus-to-algorithm
